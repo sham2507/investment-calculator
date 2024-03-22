@@ -31,7 +31,7 @@ function App() {
     <Fragment>
       <Header />      
       <UserInput userInput = {userInput} onSelect={handleChange}/>
-      <Result input={userInput} result={resultData}/>
+      {userInput.duration > 0 ? <Result input={userInput} result={resultData}/> : <header className="center">Cannot Output data as number of years is inappropriate</header>}
     </Fragment>    
   );
 }
