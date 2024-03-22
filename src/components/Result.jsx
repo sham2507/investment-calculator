@@ -15,8 +15,7 @@ function Result({input,result}){
     }
 
 
-    console.log(result);
-    console.log(input);
+    
     return(
         <table id="result">
             <thead>
