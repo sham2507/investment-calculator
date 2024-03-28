@@ -1,1 +1,6 @@
+*.react linguist-detectable=true
+*.javascript linguist-detectable=false
+*.tailwind linguist-detectable=false
+*.HTML linguist-detectable=false
+*.css linguist-detectable=false
 
